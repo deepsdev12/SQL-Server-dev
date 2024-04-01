@@ -24,7 +24,7 @@ VALUES
 GO
 
 /****** Table Valued function - UserDefinedFunction [dbo].[TSturcVariableNode] 
-we can a value for node in this fuction and it will return the hierarchy of parents in the tree starting from the value of the node    *****/
+we can pass a value for node in this fuction and it will return the hierarchy of parents in the tree starting from the value of the node    *****/
 CREATE function [dbo].[TSturcureVariableNode] (@Var int) returns @result table(node int, Pnode int)
 as
 begin
